@@ -1,0 +1,59 @@
+
+NOMBRE DEL ALUMNO:
+Everardo Estrella Rojo
+
+CARRERA:
+Ing. Mecatrónica
+
+
+MATERIA:
+Cinemática de robots
+
+GRADO Y GRUPO:
+7°-B
+
+
+CUATRIMESTRE: 
+Septiembre - Diciembre
+
+NOMBRE DEL DOCENTE:
+Carlos Enrique Moran Garabito 
+
+Cuaternios
+17 de septiembre de 2019
+      Los cuaterniones unitarios proporcionan una notación matemática para representar las orientaciones y las rotaciones de objetos en tres dimensiones. Comparados con los ángulos de Euler, son más simples de componer y evitan el problema del bloqueo del cardán. Comparados con las matrices de rotación, son más eficientes y más estables numéricamente. Los cuarteniones son útiles en aplicaciones de gráficos por computadora, robótica, navegación y mecánica orbital de satélites.
+      
+Los cuaterniones están compuestos de 4 elementos: uno real, q0, y tres imaginarios, q1, q2 y q3. La parte imaginaria se puede considerar un vector 3D.
+Q=[q_0,q_1,q_2,q_3 ]=[s,v]
+Para rotar vectores 3D utilizando cuaterniones, se utiliza el siguiente
+Q=Rot(K,?)=(cos???/2,  k sin???/2? ? )
+aplicado de la siguiente forma:
+Q_(3 )=Q_2°Q_1
+
+Referencias
+Leyva, F. R. (Marzo 2012). Modelado Cinemática de Robots. Robótica, 1/91.
+
+
+
+
+
+
+
+
+
+Par de rotación 
+El par motor es el momento de fuerza que ejerce un motor sobre el eje de transmisión de potencia o, dicho de otro modo, la tendencia de una fuerza para girar un objeto alrededor de un eje, punto de apoyo, o de pivote. 
+La potencia desarrollada por el par motor es proporcional a la velocidad angular del eje de transmisión, viniendo dada por: 
+Los cuaterniones unitarios proporcionan una notación matemática para representar las orientaciones y las rotaciones de objetos en tres dimensiones. 
+ Comparados con los ángulos de Euler, son más simples de componer y evitan el problema del bloqueo del cardán. 
+ Comparados con las matrices de rotación, son más eficientes y más estables numéricamente. Los} cuarteniones son útiles en aplicaciones de gráficos
+por computadora, robótica, navegación y mecánica orbital de satélites. 
+
+                     EV_1_3_Investigación de par de rotación y cuaternios Subtema
+Cinemática de Robots
+
+
+
+2
+
+
