@@ -1,0 +1,50 @@
+
+NOMBRE DEL ALUMNO:
+Everardo Estrella Rojo
+
+CARRERA:
+Ing. Mecatrónica
+
+
+MATERIA:
+Cinemática de Robots
+
+GRADO Y GRUPO:
+7°-B
+
+
+CUATRIMESTRE: 
+Septiembre - Diciembre
+
+NOMBRE DEL DOCENTE:
+Morán Garabito Carlos Enrique
+
+
+Tutorial ROS: Instalación
+
+Esta práctica tratara de la instalación de ROS, un programa para todos aquellos ingenieros interesados en el movimiento, simulación e inclusive en la cinemática de un Robot. En primer lugar, debo de indicar que ROS cuenta con su propia página web, donde hay una explicación de cómo es su instalación:  http://wiki.ros.org/es/ROS/Installation. Siguiendo las instrucciones que hay en esta página no debe de ser difícil de cómo se debe instalar adecuadamente ROS.
+
+I. Sistema operativo
+Lo primero que debemos decidir es que sistema operativo vamos a utilizar. En el enlace de instalación en español habréis observado que únicamente existe la opción de Ubuntu. Sin embargo, en la página de instalación en inglés http://wiki.ros.org/ROS/Installation encontrar tutoriales para poder instalar ROS no solo en Ubuntu sino en MAC y en Windows, además también encontraras como instalar distribuciones específicas para una serie de robots determinados. 
+II. Versión de ROS
+      La primera versión de ROS es del año 2010 y era conocida como ROX Box Turtle. Desde entonces se han ido sucediendo diferentes versiones hasta llegar a la actual ROS Hydra Medusa. En la página web de ROS podréis encontrar las diferentes versiones existentes: http://wiki.ros.org/Distributions
+      Actualmente existen 3 versiones soportadas:
+1) ROS Hydra Medusa: La última versión publicada el 4 septiembre del 2013.
+2) ROS Groovy Galapagos: publicada en diciembre del 2012
+3) ROS Fuerte Turtle: publicada en abril de 2012.
+
+III. La instalación
+      La instalación en Ubuntu es sencilla solo se debe seguir las instrucciones de la página web de ROS, no es más que ejecutar un comando apt-get install. Existen varios tipos de instalaciones dentro de la misma versión. Yo instale y recomiendo instalar siempre la versión ros-version-desktop-full. Una vez instalado es imprescindible configurar el entorno de Ubuntu correctamente (variables de entorno, directorio de trabajo etc). Por lo que recomiendo que un vistazo a la página siguiente.
+      http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment.
+Hasta aquí el primer post sobre este magnífico framework para robots. 
+
+
+
+                     EV_1_1_Instalación de ROS
+Cinemática de Robots 
+
+
+
+
+
+
