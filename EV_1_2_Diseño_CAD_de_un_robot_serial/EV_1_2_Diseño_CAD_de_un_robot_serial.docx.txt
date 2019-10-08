@@ -1,0 +1,56 @@
+
+NOMBRE DEL ALUMNO:
+Everardo Estrella Rojo
+
+CARRERA:
+Ing. Mecatr¢nica
+
+
+MATERIA:
+Cinem tica de robots
+
+GRADO Y GRUPO:
+7ø-B
+
+
+CUATRIMESTRE:  
+Septiembre - Diciembre
+
+NOMBRE DEL DOCENTE:
+Carlos Enrique Moran Garabito 
+
+
+Practica 2
+20 de septiembre del 2019
+      En esta segunda pr ctica se mostrar n los planos o el dise¤o de un robot serial que 
+en nuestro caso estaremos hablando de un robot tipo CNC el cual tendr  unas 
+dimensiones de trabajo de:  60 cm plano (X) 60 cm en plano (Y) y 45 cm en el plano (Z).
+A continuaci¢n, se muestran los planos del robot serial tipo CNC visualizado en sus 
+diferentes perfiles:
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+A continuaci¢n, se muestran los Trabajadas en Autocad e Inventor
+
+Se adjuntar  los planos en un software llamado Autocad y otro software llamado inventor 
+la pieza a ingresar ser  una chumacera. Qu‚ es pieza clave para el agarre de Los ejes 
+donde se estar  trasladando nuestra herramienta.
+ 
+
+ 
+
+ 
+
+
+
+Everardo Estrella Rojo.
+                     EV_1_2_Dise¤o_CAD_de_un_robot_serial
+Cinem tica de Robots
+
+1
+
