@@ -1,0 +1,63 @@
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm}
+\usepackage{pdfpages}
+\usepackage{charter} % Use the Charter font for the document text
+
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{CNC.PNG}}} % LOGOTIPO DE LA EMPRESA EN LA PARTE SUPERIOR IZQUIERDA
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % DISMINULLE EL CAMPO DE FIRMA
+
+\lthUiuc % MUESTRA EL LOGO DE LA CNC logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Everardo Estrella} % Name
+
+\addrfrom{
+\date\\[20 de Septiembre del 2019] % Date
+ \\ % Address
+Proyecto CNC
+}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Desarrollo de un Robot serial del tipo CNC,} 
+\closeline{A continuacion adjunto los planos del Robot serial tipo CNC.}
+
+\nameto{Mrs. Everardo Estrella} 
+
+\addrto{
+Ingeneria en Mecatronica \\ 
+Universidad Politecnica \\
+Primer Avance de Proyecto \\
+Cinematica de Robots
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\date{20 de septiembre 2019}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+Definicion de Materia: La cinemática de robots La cinemática de un robot es el estudio de los movimientos de un robot. En un análisis cinemático la posición, velocidad y aceleración de cada uno de los elementos del robot son calculados sin considerar las fuerzas que causan el movimiento. La relación entre el movimiento y las fuerzas asociadas son estudiadas en la dinámica de robots.
+
+Propósito de Materia: El propósito de esta materia es el conocimiento de los tipos de robots industriales donde se pide la elaboración de un robot serial como proyecto a realizar para el período séptimo cuatrimestre, y la elaboración del robot serial será, de tipo CNC. 
+ 
+Rubrica para la entrega: Un robot CNC tiene 3 movimientos en particulares en el espacio es decir se mueve en el plano X en el plano Y y en el plano Z. Nuestra propuesta con el profesor fue aprobada por lo que se pide unas medidas estándares para la realización del robot. Las medidas: son 60cm X 60cm en Y mi 45 cm en Z. 
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\newpage
+\includepdf[pages=-]{cnc}
+\end{document}
