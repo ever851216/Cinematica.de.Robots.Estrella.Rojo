@@ -1,0 +1,59 @@
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm}
+\usepackage{pdfpages}
+\usepackage{charter} % Use the Charter font for the document text
+
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{Par1.JPG}}} % LOGOTIPO DE LA EMPRESA EN LA PARTE SUPERIOR IZQUIERDA
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % DISMINULLE EL CAMPO DE FIRMA
+
+\lthUiuc % MUESTRA EL LOGO DE LA CNC logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Everardo Estrella} % Name
+
+\addrfrom{
+\date\\[17 de Septiembre del 2019] % Date
+ \\ % Address
+Par de rotacion y Cuaternios
+}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Los cuaterniones unitarios proporcionan una notación matemática para representar las orientaciones y las rotaciones de objetos en tres dimensiones. Comparados con los ángulos de Euler, son más simples de componer y evitan el problema del bloqueo del cardán. Comparados con las matrices de rotación, son más eficientes y más estables numéricamente. Los cuarteniones son útiles en aplicaciones de gráficos por computadora, robótica, navegación y mecánica orbital de satélites.} 
+\closeline{Se presento una breve explicacion de par de Rotacion y los Cuaternios.}
+
+\nameto{Mrs. Everardo Estrella} 
+
+\addrto{
+Ingeneria en Mecatronica \\ 
+Universidad Politecnica \\
+7 ° B \\
+Cinematica de Robots
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\date{17 de septiembre 2019}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\includepdf[pages=-]{rotacionycuaternios}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+
+\end{document}
