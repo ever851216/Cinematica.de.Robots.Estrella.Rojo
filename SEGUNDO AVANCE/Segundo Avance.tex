@@ -1,0 +1,58 @@
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm}
+\usepackage{pdfpages}
+\usepackage{charter} % Use the Charter font for the document text
+
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{logo.JPG}}} % LOGOTIPO DE LA EMPRESA EN LA PARTE SUPERIOR IZQUIERDA
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % DISMINULLE EL CAMPO DE FIRMA
+
+\lthUiuc % MUESTRA EL LOGO DE LA CNC logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Everardo Estrella} % Name
+
+\addrfrom{
+\date\\[18 de Octubre del 2019] % Date
+ \\ % Address
+Proyecto CNC
+}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Desarrollo de un Robot serial del tipo CNC,} 
+\closeline{Gracias por dejarme vivir esta era  de la tecnologia}
+
+\nameto{Everardo Estrella} 
+
+\addrto{
+Ingeneria en Mecatronica \\ 
+Universidad Politecnica \\
+Segundo Avance de Proyecto \\
+Cinematica de Robots
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\date{20 de septiembre 2019}
+\begin{newlfm}
+\newpage
+\includepdf[pages=-]{S2A}
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+
+\end{document}
