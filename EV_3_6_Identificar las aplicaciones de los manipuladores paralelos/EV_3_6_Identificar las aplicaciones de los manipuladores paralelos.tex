@@ -1,0 +1,59 @@
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm}
+\usepackage{pdfpages}
+\usepackage{charter} % Use the Charter font for the document text
+
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{1.JPG}}} % LOGOTIPO DE LA EMPRESA EN LA PARTE SUPERIOR IZQUIERDA
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % DISMINULLE EL CAMPO DE FIRMA
+
+\lthUiuc % MUESTRA EL LOGO DE LA CNC logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Everardo Estrella} % Name
+
+\addrfrom{
+\date\\[05 Noviembre del 2019] % Date
+ \\ % Address
+EV Identificar las aplicaciones de los manipuladores paralelos
+}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Manipuladores de los Manipuladores Paralelos} 
+\closeline{Feliz Cierre de Cuatrimestre}
+
+\nameto{Mrs. Everardo Estrella} 
+
+\addrto{
+Ingeneria en Mecatronica \\ 
+Universidad Politecnica \\
+Robots Paralelos \\
+Cinematica de Robots
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\date{FECHA 2019}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\includepdf[pages=-]{EV3}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+
+\end{document}
